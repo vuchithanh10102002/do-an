@@ -1,0 +1,112 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(244, 244, 244, 1);
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'segoe ui', arial, sans-serif;
+}
+
+body{
+    margin:0px;
+    font-size:14px;
+}
+.main{
+    height: 100%;
+}
+.menu {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.66);
+}
+div#content {
+    height: 100%;
+    /*padding: 0 5px;*/
+    background-color: white;
+}
+.jqx-menu-item-top {
+    color: rgba(0, 0, 0, 0.57);
+    font-size: 12px;
+    height: auto;
+    width: 25%;
+    text-align: center;
+    padding: 6px 0px;
+    margin: 0;
+    border: none;
+}
+
+.jqx-widget-header-metro{
+    border:0;
+}
+.jqx-grid-header {
+    background-color: #f7f4f8;
+}
+.jqx-grid-header div {
+    font-size: 15px;
+    font-weight: 500;
+}
+.jqx-grid-cell {
+    border: 0;
+}
+.jqx-menu-item-top i {
+    width: 100%;
+    font-size: 17px;
+}
+.jqx-grid, #search{
+    border: none;
+}
+.jqx-grid-cell>div{
+    font-size: 13px;
+}
+.jqx-menu ul{
+    padding: 0;
+}
+.top-bar{
+    height: 35px;
+    background-color: #d9dbdd;
+}
+.top-bar>.jqx-button{
+    font-size: 14px;
+    padding: 0 8px;
+    float: right;
+    border: none;
+    height: 35px !important;
+    background-color: #d9dbdd;
+    color: black;
+}
+.top-bar>h6 {
+    display: inline-block;
+    margin: 0px 5px;
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.jqx-popover-title {
+    background-color: rgba(158, 158, 158, 0.33);
+    font-size: 14px;
+    font-weight: bold;
+}
+label{
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+#popover{
+    top: 0 !important;
+}
+.jqx-popover.left .jqx-popover-arrow {
+    top: 15px;
+}
+.jqx-window-header {
+    background-color: rgba(158, 158, 158, 0.35);
+    font-size: 15px;
+    padding: 6px;
+}
+.price_sale-cell {
+    text-align: right;
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+/*.body-print{*/
+    /*background-color: #9E9E9E;*/
+    /*padding: 15px;*/
+    /*margin: -5px;*/
+    /*max-height: 420px;*/
+    /*overflow-x: auto;*/
+/*}*/
+/*.container-print{*/
+    /*padding: 5px 10px;*/
+    /*background-color: white;*/
+    /*!*box-shadow: 0 0 11px rgba(0, 0, 0, 0.47);*!*/
+/*}*/
+/*.container-print * {*/
+    /*font-size: 11px;*/
+    /*margin: 0;*/
+    /*color: black;*/
+/*}*/
+/*.container-print .table-product, .container-print .table-product td, .container-print .table-product th {*/
+    /*border: 1px solid #c6c6c6;*/
+    /*border-collapse: collapse;*/
+/*}*/
